@@ -1,17 +1,15 @@
-.top {
-    background-color:grey;
-}
+
 header {
-    background: color rgb(55, 55, 200);
+    background-color: silver;
     font-size: 72px;
-    color: #fff;
+    color: blue;
     text-align:center;
     width:auto;
 }
 nav {
     font-size: 12px;
 }
-.img-1 {
+.img {
     display:flex;
     justify-content: center;
 }
@@ -24,4 +22,14 @@ nav {
     text-align: center;
     font-size: 24px;
     font-family: serif, sans-serif;
+}
+.centered {
+    display: flex;
+    justify-content: center;
+}
+.about-jack {
+    text-align: center;
+}
+.description {
+    text-align: center;
 }

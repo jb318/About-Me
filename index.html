@@ -7,71 +7,72 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <main class="top">
-            <header>
-                <div>
-                    <h1><em>Jack Thinkful</em></h1>
-                    <h3>Software Developer</h3>
+    
+        <header>
+            <h1><em>Jack Thinkful</em></h1>
+            <h3>Software Developer</h3>
                     <!-- The Thinkful project must have a 
                     1. Intro Section (Who and Where you are)
                     2. About Me Section (passion for web development + willingness to work with others + two other interests.)
                     3. Contacts (where people can contact you)-->
-                    <nav>
-                        <a href="self-introduction">Self Introduction</a>
-                        <a href="about-me">About Me</a>
-                        <a href="contacts">Contacts</a>
-                    </nav>
-                </div>
-            </header>
-        </main>
-        <main class="introduction" id="self-introduction">
+            <nav>
+                <a href="self-introduction">Self Introduction</a>
+                <a href="about-me">About Me</a>
+                <a href="contacts">Contacts</a>
+            </nav>
+        </header>
+        
+        <hr>
+        <main class="introduction">
             <!-- remember to upload an image into images folder and write the link in src="" -->
-            <div class="img-1">
-                <img class="profile-picture" src="images/Jack-Blute.jpg">
-            </div>
-            <div class="section-1">
-                <p>Hello, my name is Jack</p>
-                <p>I'm a student at Thinkful from New York.</p>
-                <p>Some of the reasons why I choose to become a programmer include</p>
-                <ul>
-                    <li>My interest in technology</li>
-                    <li>A desire to have a career in programming.</li>
-                    <li>I like video games</li>
-                </ul>
-            </div>
-            <br>
-        </main>
-        <main class="bio" id="about-me">
+            <article class="img-1" id="self-introduction">
+                <div class="img">
+                    <img class="profile-picture" src="images/Jack-Blute.jpg">
+                </div>
+                <div class="centered">
+                    <section class="section-1">
+                        <p>Hello, my name is Jack</p>
+                        <p>I'm a Thinkful student from New York.</p>
+                        <p>Some of the reasons why I choose to become a <strong>Software Developer</strong> are:</p>
+                        <ul>
+                            <li>My interest in technology</li>
+                            <li>A desire to have a career in programming.</li>
+                            <li>I like video games</li>
+                        </ul>
+                    </section>
+                </div>
+            </article>
+        <hr>
             <!-- establish your reasons for Enrolling in Thinkful, why you want to be a web developer,
             how you'll help/work with others and other interests (career) you might have -->
-            <div class="section-2">
-                <h2><em>About Jack</em></h2>
-                <p> 
-                     It wasn't until a couple of years ago when I first got into programming and got my hands dirty coding when I took my first Computer Science class in college.  Before that, I had originally intended to major in Mechanical Engineering 
-                     but that had only lasted until my second semester where I took my first Computer Science class, Programming for Engineers.  While being the most challenging class I took all of my first year, it was certainly the most enjoyable and 
-                     interesting to me.  Ever since then my interest in programming, web development/software engineering, has grown substantially.          
-                </p>
-                <p>
-                    In addition to studying software development at Thinkful, I am also studying Progamming for Game Developers and Design at Southern New Hampshire University (SNHU).  Considering I already love video games and am becoming more interest in 
-                    coding I decided I'd major in Game Development so I can get a glimpse of the developers work load and potentially land my self a job in one of the many gaming studios.   
-                </p>
-                <!-- add a link element around contact and link users to contact information -->
-                <p>
-                    I'm always open to helping others on a web development project and would love the chance to collaborate with software engineers on all things programming related.  Feel free to contact me anytime.
-                </p>
-            </div>
-            <div class="section-3" id="contact">
-                <h2><em>Where to Find Me</em></h2>
-                <p>You can contact me using my Github or via LinkedIn.  Links attached below</p>
+            <article class="section-2" id="about-me">
+                <h2 class="about-jack"><em>About Jack</em></h2>
+                <section class="description">
+                    <p> 
+                        It wasn't until a couple of years ago when I first got into programming and got my hands dirty coding when I took my first Computer Science class in college.  Before that, I had originally intended to major in Mechanical Engineering 
+                        but that had only lasted until my second semester where I took my first Computer Science class, Intro to Computer Science for Engineers.  Despite being the most challenging class I took my first year, it was definitely the most enjoyable and 
+                        interesting to me.  Ever since then my interest in Software Engineering, both Front-End and Back-End, has grown substantially.          
+                    </p>
+                    <p>
+                        In addition to studying Software Development at Thinkful, I am also studying at Southern New Hampshire University with a major of Progamming for Game Developers and Design.  Aside from Web Development my other areas of interest lie in gaming 
+                        and the development of application based entertainment.  
+                    </p>
+                    <p>
+                        I'm always looking for partners on any web development project as I want to expand on my portfolio and coding skills.  Feel free to contact me anytime if you are interested.
+                    </p>
+                </section>
+            </article>
+            <hr>
+            <article class="section-3" id="contact">
+                <h2><em>Want to know more?</em></h2>
+                <p>You can contact me via <a href="">Github </a>or <a href="">LinkedIn</a>.</p>
                 <!-- attach links here to GitHub and LinkedIn.  Use an ordered list -->
-            </div>
-        </main>
-        <main class="links" id="contacts">
-
+            </article>
         </main>
         <footer>
             
         </footer>
-        <!-- write the link to the javascript file here -->
+        <script src="practice.js"></script>
+        
     </body>
 </html>
