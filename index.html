@@ -7,22 +7,29 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-    
+        
         <header>
-            <h1><em>Jack Thinkful</em></h1>
-            <h3>Software Developer</h3>
+            <div class="wrapper">
+                <div class="header-wrapper">
+                    <h1><em>Jack Blute</em></h1>
+                </div>
                     <!-- The Thinkful project must have a 
                     1. Intro Section (Who and Where you are)
                     2. About Me Section (passion for web development + willingness to work with others + two other interests.)
                     3. Contacts (where people can contact you)-->
-            <nav>
-                <a href="self-introduction">Self Introduction</a>
-                <a href="about-me">About Me</a>
-                <a href="contacts">Contacts</a>
-            </nav>
-        </header>
-        
-        <hr>
+                <!--create a div element to wrapper around nav allowing it to display on the right side of the header element-->
+                <div class="nav-wrapper">
+                    <nav>
+                        <span>
+                            <a href="self-introduction">Home</a>
+                            <a href="about-me">About</a>
+                            <a href="contacts">Contact</a>
+                        </span>
+                    </nav>
+             </div>
+            </div>
+        </header>  
+             
         <main class="introduction">
             <!-- remember to upload an image into images folder and write the link in src="" -->
             <article class="img-1" id="self-introduction">
@@ -65,8 +72,8 @@
             <hr>
             <article class="section-3" id="contact">
                 <h2><em>Want to know more?</em></h2>
-                <p>You can contact me via <a href="">Github </a>or <a href="">LinkedIn</a>.</p>
                 <!-- attach links here to GitHub and LinkedIn.  Use an ordered list -->
+                <p>You can contact me via <a href="https://github.com/jb318">Github</a> or <a href="https://www.linkedin.com/in/jack-blute-68238a241">LinkedIn</a>.</p>
             </article>
         </main>
         <footer>
