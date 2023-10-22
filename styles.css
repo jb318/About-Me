@@ -1,24 +1,45 @@
 header {
-    background-color: #0bf;
+    background-color: #505050;
     /* padding: 30px 10px 0px 10px;
     margin: -10px 0px; */
     box-sizing: border-box;
-    margin-top: -40px;
+    margin-top: -60px;
     margin-right:-7px;
     margin-left:-7px;
+    margin-bottom:-50px;
+}
+main {
+    background-color: silver;
+    margin-left: -7px;
+    margin-right: -7px;
+}
+h1 {
+    font-size: 72px;
+    color:lightgray;
+}
+h2 {
+    font-size: 48px;
+    font-family: sans-serif, serif;
+    color:#06f;
+}
+p {
+    font-size: 20px;
+}
+.center-item {
+    display:flex;
+    justify-content: center;
 }
 .header-wrapper {
-    text-align:center;
     color: #06f;
     font-size:24px;
-    
+    text-align: center;
 }
-
+/* use a selector to position the user navigation tool in the header container on the right of the web page */
 .nav-wrapper {
     box-sizing: border-box;
     margin-bottom: 24px;
     position:absolute;
-    top: 15px;
+    top: 25px;
     right:50px;
 }
 nav {
@@ -26,23 +47,29 @@ nav {
     text-align: right;
     font-size: 18px;
 }
-main {
-    margin: 0;
-}
-
 .img {
     display:flex;
     justify-content: center;
 }
+/* set height to width ratio to match the default ratio of the picture, adjust the dimensions so it fits the page nicely */
 .profile-picture {
     width: 600px;
     height:750px;
 }
-.section-1 {
-    justify-content: center;
-    text-align: center;
-    font-size: 24px;
+.section-1, .section-2, .section-3 {
+    font-size:36px;
     font-family: serif, sans-serif;
+}
+.center-item, strong {
+    text-indent: 5px;
+}
+.section-3 {
+    text-align: center;
+}
+.list-center {
+    display: flex;
+    justify-content: center;
+    text-align:center;    
 }
 .centered {
     display: flex;
@@ -55,5 +82,47 @@ main {
     text-align: center;
 }
 footer {
-    background-color: #0bf;
+    background-color: #a0a0a0;
+}
+/* create a container for paragraph elements that sits them in a small section in the middle of the page with easy to read content */
+.box {
+    text-align: left;
+    width:25vw;
+    position: relative;
+    left:37vw;
+}
+.inline {
+    display:flex;
+    justify-content: center;
+    
+}
+/* create a rule for the first paragraph element of the self-introduction to sit alonside the h2 element.   */
+.inline p {
+    position: relative;
+    top: 45px;
+    text-indent: 10px;
+}
+li {
+    font-size: 20px;
+}
+footer p {
+    text-align: center;
+    color:lightgray;
+    font-size: 18px;
+    
+}
+footer {
+    margin: -18px -7px -18px -7px;
+}
+a:link {
+    color:#08f;
+}
+a:visited {
+    color:#808;
+}
+a:hover {
+    color:#00f;
+}
+a:active {
+    color:#0bf;
 }
